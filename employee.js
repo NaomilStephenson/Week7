@@ -1,7 +1,7 @@
 'use strict'
 
-let express = require("express");
-let app = express();
+const express = require("express");
+const app = express();
 const server = app.listen((4000), ()=>{
     console.log("The Employee Database is running...");
 });
