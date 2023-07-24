@@ -2,9 +2,9 @@
   "name": "html",
   "version": "1.0.0",
   "description": "",
-  "main": "dataentry.js",
+  "main": "dtb.js",
   "scripts": {
-    "start": "node dataentry.js",
+    "start": "dtb.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
