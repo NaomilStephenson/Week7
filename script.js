@@ -1,6 +1,7 @@
 'use strict'
 
 const express = require("express");
+const bodyParser = require("body-parser");
 const app = express();
 const server = app.listen((4000), ()=>{
     console.log("Welcome to Nationwide server, we are listening...");
