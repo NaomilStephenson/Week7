@@ -17,13 +17,13 @@ const db = mySQL.createConnection({                                  // Create c
 
 db.connect();                                                        // Connect to Game Store dtb
 
-app.get("/products",(request, response) => {                         // Return Products to requestor
-        db.query("SELECT * FROM Product;",(err, products) => {                    
-        response.write("<h1> <centre> Products List </centre> </h1>");
-        response.write(products);
-        response.end;
-    });
-});
+// app.get("/products",(request, response) => {                         // Return Products to requestor - This doesn't work as the my-sql module has fault.
+//         db.query("SELECT * FROM Product;",(err, products) => {                    
+//         response.write("<h1> <centre> Products List </centre> </h1>");
+//         response.write(products);
+//         response.end;
+//     });
+// });
 
 
 // app.get("/",(request, response) => {
